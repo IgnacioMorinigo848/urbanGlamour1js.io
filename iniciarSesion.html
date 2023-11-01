@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="navegacion">
+      <div class="logoContenedor">
+        <div class="item1 logo">
+          <a href="index.html"><img src="Imagenes/logoDePagina.png" alt="LogoDePagina"></a>
+        </div>
+        <div class="item2 sesion">
+          <a href=""><img src="Imagenes/carrito.png"></a>
+        </div>
+      </div> 
+      <div class="contenedorMenu">
+          <input type="checkbox"  id="menu">
+          <label for="menu">☰</label>
+          <ul class="menu">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="">Productos</a></li>
+              <li><a href="">Sobre Nosotros</a></li>
+              <li><a href="">Ubicación</a></li>
+          </ul>
+        </div>
+    </nav>
+  </header>
+  <main class="contenedorGeneralForm">
+    <section>
+      <div class="contenedorIS">
+        <form id="form" action="">
+          <h1>Iniciar Sesion</h1>
+          <div class="contenedorMail">
+            <p>Email</p>
+            <input id="email" type="email" placeholder="Exampe@gmail.com">
+            <p id="warnning1"></p>
+          </div>
+          <div class="contenedorPassword">
+            <p>Contreseña</p>
+            <input id="password" type="password" placeholder="Contraseña">
+            <p id="warnning2"></p>
+            <p><a href="">¿Olvidado tu contreseña?</a></p>
+          </div>
+          <div class="contenedorBtn"><input id="btn" type="submit" value="Iniciar Sesion">
+            <p>¿No tienes cuenta?<a href="Registrarse.html">Registrarse</a></p>
+            <p id="warnning3"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main> 
+  <script src="estilos.js"></script>
+</body>
+</html>
